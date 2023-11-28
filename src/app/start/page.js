@@ -106,10 +106,10 @@ const Home = () => {
 
                                 {
                                     data?.map((arr, ind) => {
-                                        return <Col className={`${ind % 2 === 1 && 'mt-5 pt-5'}`} key={ind}>
+                                        return <Col className={`${ind % 2 === 1 && 'mt-5 pt-2'}`} key={ind}>
                                             {
                                                 arr?.map((Item, keys) => {
-                                                    return <div key={keys + ind} className={`genrate my-3 ${select === Item?.encode ? 'selectImg' : ''}`}>
+                                                    return <div key={keys + ind} className={`genrate my-4 ${select === Item?.encode ? 'selectImg' : ''}`}>
                                                         <img src={Item?.img} alt="" onClick={() => handleSelect(Item?.encode)} />
                                                     </div>
                                                 })

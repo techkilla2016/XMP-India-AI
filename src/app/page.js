@@ -20,61 +20,68 @@ const Page = () => {
 
   const data = [
     {
-      id: 1,
+      img: '/assets/Rani-LaxmiBai.png', //new
+    },
+    {
+      img: '/assets/3.png',
+    },
+    {
+      img: '/assets/9.png',
+    },
+    {
+      img: '/assets/10.png',
+    },
+    {
       img: '/assets/1.png',
     },
     {
-      id: 2,
-      img: '/assets/Rani-LaxmiBai.png',
+      img: '/assets/12.png', // new
     },
 
     {
-      id: 3,
-      img: '/assets/3.png',
-    },
-
-    {
-      id: 4,
-      img: '/assets/Maharana-Pratap.png',
-    },
-    {
-      id: 5,
       img: '/assets/5.png',
     },
+
     {
-      id: 6,
-      img: '/assets/6.png',
+      img: '/assets/Maharana-Pratap.png',
     },
 
     {
-      id: 7,
+      img: '/assets/6.png',
+    },
+    {
       img: '/assets/Shivaji.png',
     },
     {
-      id: 8,
       img: '/assets/8.png',
     },
     {
-      id: 9,
       img: '/assets/Prithviraj.png',
     },
+
     {
-      id: 10,
-      img: '/assets/4.png',
-    },
-    {
-      id: 11,
-      img: '/assets/7.png',
-    },
-    {
-      id: 12,
       img: '/assets/Bajirao.png',
     },
+    {
+      img: '/assets/4.png',
+    },
+
+
     // {
-    //   id: 13,
     //   img: '/assets/2.png',
     // },
 
+    {
+      img: '/assets/11.png',
+    },
+    {
+      img: '/assets/7.png',
+    },
+
+  ]
+
+  let list = [
+    ''
   ]
 
   return (
