@@ -24,5 +24,17 @@ img {
     border: 2px solid #fff
     
 }
+.xmpheading{
+    font-size: 70px;
+    color: #000;
+    font-weight: bold;
+    line-height: 1;
+    @media screen and (max-width:1024px) {
+        font-size: 50px;
+    }
+    @media screen and (max-width:768px) {
+        font-size: 40px;
+    }
+}
 @import './style/style.scss';
 @import './style/home.scss';
