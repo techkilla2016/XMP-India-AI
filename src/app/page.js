@@ -37,15 +37,12 @@ const Page = () => {
     {
       img: '/assets/12.png', // new
     },
-
     {
       img: '/assets/5.png',
     },
-
     {
       img: '/assets/Maharana-Pratap.png',
     },
-
     {
       img: '/assets/6.png',
     },
@@ -58,19 +55,12 @@ const Page = () => {
     {
       img: '/assets/Prithviraj.png',
     },
-
     {
       img: '/assets/Bajirao.png',
     },
     {
       img: '/assets/4.png',
     },
-
-
-    // {
-    //   img: '/assets/2.png',
-    // },
-
     {
       img: '/assets/11.png',
     },
@@ -80,9 +70,6 @@ const Page = () => {
 
   ]
 
-  let list = [
-    ''
-  ]
 
   return (
     <div className="main">
@@ -117,3 +104,4 @@ const Page = () => {
 }
 
 export default Page
+

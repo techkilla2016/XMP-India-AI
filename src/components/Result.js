@@ -52,8 +52,8 @@ const Result = ({ result, setResult }) => {
                     <title>Print</title>
                 </head>
             <body>
-                <div id="finalImag"> 
-                    <img src=${result} style="width:100%; border-radius :10px"/> 
+                <div id="finalImag" class="d-flex justify-content-center"> 
+                    <img src=${result} style="width:95%; border-radius :10px; display:block; margin:auto"/> 
                 </div>
             </body>
             </html>    
